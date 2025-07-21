@@ -46,11 +46,11 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
+  gap: 2rem;
 `;
 
 const LeftColumn = styled.div`
   width: 15.5rem;
-  padding-right: 2rem;
   flex-shrink: 0;
 
   @media (max-width: 750px) {
