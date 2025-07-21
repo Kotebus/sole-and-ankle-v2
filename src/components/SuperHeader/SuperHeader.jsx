@@ -23,9 +23,15 @@ const SuperHeader = () => {
 };
 
 const Wrapper = styled.div`
-  font-size: 0.875rem;
-  color: ${COLORS.gray[300]};
-  background-color: ${COLORS.gray[900]};
+    font-size: 0.875rem;
+    color: ${COLORS.gray[300]};
+    background-color: ${COLORS.gray[900]};
+    
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
 `;
 
 const MarketingMessage = styled.span`

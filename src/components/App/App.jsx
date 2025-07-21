@@ -5,20 +5,26 @@ import Header from '../Header';
 import ShoeIndex from '../ShoeIndex';
 
 const App = () => {
-  const [sortId, setSortId] = React.useState('newest');
+    const [sortId, setSortId] = React.useState('newest');
 
-  return (
-    <>
-      <Header />
-      <Main>
-        <ShoeIndex sortId={sortId} setSortId={setSortId} />
-      </Main>
-    </>
-  );
+    return (
+        <>
+            <GlobalHeader/>
+            <Main>
+                <ShoeIndex sortId={sortId} setSortId={setSortId}/>
+            </Main>
+        </>
+    );
 };
 
 const Main = styled.main`
-  padding: 64px 32px;
+    padding: 64px 32px;
+    height: 100%;
+    isolation: isolate;
+`;
+
+const GlobalHeader = styled(Header)`
+    isolation: isolate;
 `;
 
 export default App;
