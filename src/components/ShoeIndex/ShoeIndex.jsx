@@ -55,7 +55,7 @@ const LeftColumn = styled.div`
   flex-shrink: 0;
   align-items: baseline;
 
-  @media (max-width: 750px) {
+  @media (max-width: 1008px) {
       display: none;
   }
 `;
