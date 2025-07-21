@@ -51,6 +51,11 @@ const Wrapper = styled.div`
 const LeftColumn = styled.div`
   width: 15.5rem;
   padding-right: 2rem;
+  flex-shrink: 0;
+
+  @media (max-width: 750px) {
+      display: none;
+  }
 `;
 
 const MainColumn = styled.div`
