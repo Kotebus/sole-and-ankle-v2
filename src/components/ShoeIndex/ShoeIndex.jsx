@@ -47,11 +47,13 @@ const Wrapper = styled.div`
   flex-direction: row-reverse;
   justify-content: flex-end;
   gap: 2rem;
+  align-items: baseline;
 `;
 
 const LeftColumn = styled.div`
   width: 15.5rem;
   flex-shrink: 0;
+  align-items: baseline;
 
   @media (max-width: 750px) {
       display: none;
@@ -65,6 +67,7 @@ const MainColumn = styled.div`
 const Header = styled.header`
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 `;
 
 const Title = styled.h2`
