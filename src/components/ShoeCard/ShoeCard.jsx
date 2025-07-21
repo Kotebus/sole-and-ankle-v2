@@ -62,7 +62,6 @@ const Flag = styled.div`
   border-radius: 2px;
   height: 2rem;
   font-size: 0.875rem;
-  z-index: 2;
 `;
 
 const SaleFlag = styled(Flag)`
